@@ -1,6 +1,6 @@
 {
   "name": "@mrii/react-mousetrap-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A simple wrapper on top of mousetrap to work with react",
   "keywords": [
@@ -54,8 +54,11 @@
     "tsc": "tsc",
     "type-check": "tsc -p ./tsconfig.eslint.json"
   },
-  "devDependencies": {
+  "dependencies": {
     "@mrii/react-proxy-ref": "^1.0.0",
+    "shallow-equal": "^3.1.0"
+  },
+  "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@swc/core": "^1.3.46",
@@ -84,17 +87,14 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-swc3": "^0.8.1",
     "rollup-plugin-typescript-paths": "^1.4.0",
-    "shallow-equal": "^3.1.0",
     "ts-patch": "^2.1.0",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4",
     "typescript-transform-paths": "^3.4.6"
   },
   "peerDependencies": {
-    "@mrii/react-proxy-ref": "^1.0.0",
     "mousetrap": "^1.6.5",
-    "react": ">16.0.0",
-    "shallow-equal": "^3.1.0"
+    "react": ">16.0.0"
   },
   "publishConfig": {
     "access": "public"

@@ -6,10 +6,10 @@ A simple wrapper on top of mousetrap to work with react.
 
 ```bash
 # yarn
-yarn add @mrii/react-mousetrap-hook
+yarn add @mrii/react-mousetrap-hook mousetrap
 
 # npm
-npm i @mrii/react-mousetrap-hook
+npm i @mrii/react-mousetrap-hook mousetrap
 ```
 
 ## Usage

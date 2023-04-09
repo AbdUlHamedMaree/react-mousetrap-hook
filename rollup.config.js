@@ -34,7 +34,9 @@ export default defineConfig([
     ],
     treeshake: 'smallest',
     plugins: [
-      peerDepsExternal(),
+      peerDepsExternal({
+        includeDependencies: true,
+      }),
       typescriptPaths(),
       nodeResolve(),
       commonjs(),
