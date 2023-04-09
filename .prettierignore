@@ -1,0 +1,16 @@
+node_modules
+build
+dist
+dest
+.next
+.env*
+.gitignore
+.husky
+.prettierignore
+yarn.lock
+
+*.png
+*.svg
+*.jpg
+*.ico
+*.txt
